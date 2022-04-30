@@ -1,6 +1,15 @@
 # tetris-game
 Tetris feito em typescript
 
+## ScreenShot
+
+
+<div styles="display: flex; gap: 200px;">
+<img src="./screenshot01.png" alt="screenshot01" height="400px" />
+<img src="./screenshot02.png" alt="screenshot01" height="400px" />
+
+</div>
+
 ## Requisitos
 * NodeJs
 
