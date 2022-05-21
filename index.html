@@ -1,21 +1,27 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tetris</title>
-  </head>
-  <body>
-    <div class="canvas-wrapper">
-      <div class="menu">
-        <div class="buttons">
-          <button id="start-game-button">&gt</button>
-          <button id="pause-game-button">||</button>
-        </div>
-        <div class="pont-marker"><span id="points"></span></div>
-      </div>
-      <canvas id="game"></canvas>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tetris</title>
+</head>
+
+<body>
+  <div class="canvas-wrapper">
+    <div id="overlay"></div>
+    <div class="menu">
+      <span id="stop-text">Press ESC to pause</span>
+      <div class="pont-marker"><span id="points"></span></div>
     </div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+    <div class="center">
+      <h1 id="message-title">Tetris Game</h1>
+      <span id="final-points"></span>
+      <span id="message-text">Press SPACE to start!</span>
+    </div>
+    <canvas id="game"></canvas>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>

@@ -13,6 +13,21 @@
   border-radius: 1.5px;
 }
 
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
 body {
   height: 100vh;
   background-color: #222;
@@ -23,9 +38,61 @@ body {
   gap: 10px;
 }
 
-div.buttons {
+#stop-text {
+  opacity: 0;
+  animation: pulse 1s infinite;
+}
+
+#message-title {
+  animation: pulse 1s infinite;
+
+}
+
+#restart-game-button {
+  display: none;
+}
+
+.center {
   display: flex;
-  gap: 3px;
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  color: crimson;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  color: crimson;
+  font-size: small;
+}
+
+.center button {
+  background-color: #222;
+  border: none;
+  color: crimson;
+  width: auto;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 div.menu {
@@ -40,6 +107,10 @@ div.menu {
 
 .canvas-wrapper {
   position: relative;
+}
+
+#nextSquare {
+  background-color: red;
 }
 
 button {
