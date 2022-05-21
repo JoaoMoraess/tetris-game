@@ -1,7 +1,7 @@
 # tetris-game
 Tetris feito em typescript
 
-<a href="https://sweet-pegasus-9e59f0.netlify.app"><h2>link para Jogar</h2></a>
+<a href="https://sweet-pegasus-9e59f0.netlify.app" target="_blank"><h2>link para Jogar</h2></a>
 
 ## ScreenShot
 
