@@ -1,14 +1,16 @@
 # tetris-game
 Tetris feito em typescript
 
-## ScreenShot
+<a href="https://sweet-pegasus-9e59f0.netlify.app"><h2>link para Jogar</h2></a>
 
+## ScreenShot
 
 <div styles="display: flex; gap: 200px;">
 <img src="./screenshot01.png" alt="screenshot01" height="400px" />
 <img src="./screenshot02.png" alt="screenshot01" height="400px" />
 
 </div>
+
 
 ## Requisitos
 * NodeJs
